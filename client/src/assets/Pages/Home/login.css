@@ -1,0 +1,44 @@
+.home-style {
+    max-width: 30rem;
+    min-width: 10rem;
+    margin-inline: auto;
+    margin-bottom: 3rem;
+}
+
+button {
+    margin-top: 1.25rem;
+    text-align: center;
+    cursor: mouse;
+}
+
+.forgot-pass {
+    color: gray !important;
+    display: flex;
+    justify-content: center;
+}
+
+.create-account {
+    color: white !important;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+}
+
+.guest {
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: #28a745 !important;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+    border: 1px !important;
+}
+
+
+@media only screen and (max-width: 431px) {
+    .home-style {
+        margin-inline: 2rem;
+    }
+}

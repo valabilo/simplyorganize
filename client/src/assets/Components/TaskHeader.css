@@ -1,0 +1,25 @@
+.logo {
+    padding: 0px !important;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    max-width: 50%;
+}
+
+/* 
+@media only screen and (max-width: 700px) {
+    img {
+        max-width: 50%;
+
+    }
+} */
+
+@media only screen and (max-width: 430.4px) {
+    img {
+        max-width: 80%;
+        margin-inline: auto;
+    }
+}
